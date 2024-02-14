@@ -9,8 +9,13 @@
             <tab>live2</tab>
             <resource>Live2_Live2::config_live2_token</resource>
             <group id="access_token" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Access Token</label>
-                <field id="token" translate="label comment" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Live2 Details</label>
+                <field id="url" translate="label comment" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>URL</label>
+                    <comment>Enter your access url here.</comment>
+                     <scope>store</scope>
+                </field>
+                 <field id="token" translate="label comment" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Token</label>
                     <comment>Enter your access token here.</comment>
                      <scope>store</scope>

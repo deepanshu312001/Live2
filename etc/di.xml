@@ -7,4 +7,6 @@
             </argument>
         </arguments>
     </type>
+    <preference for="Live2\Live2\Api\ProductInterface" type="Live2\Live2\Model\Product" />
+    <preference for="Live2\Live2\Api\CategoryInterface" type="Live2\Live2\Model\Category"/>
 </config>
